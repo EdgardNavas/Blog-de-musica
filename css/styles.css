@@ -1,1 +1,15 @@
-styles.css
+.header{
+	background: #F7FFF7;
+}
+
+body{
+	background: #C16200;
+}
+
+a>img[src*="icon"]{
+	width: 30px;
+}
+
+.menu{
+	background: #CECCCC;
+}
