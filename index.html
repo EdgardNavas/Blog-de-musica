@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name='viewport' content='width=device-width initial-scale=1'>
     <meta name='mobile-web-app-capable' content='yes'>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/styles.css">
 	<script src='js/bootstrap.min.js'></script>
 	<title>Music circles</title>
@@ -26,18 +26,53 @@
 			</nav>
 		</div>
 	</header>
-	<div class="menu row">
-		<div class="col col-sm-12">
-			<ul class="nav nav-pills nav-fill">
-				<li class="nav-item"><a href="#" class="nav-link active">Inicio</a></li>
-				<li class="nav-item"><a href="#" class="nav-link">Artistas</a></li>
-				<li class="nav-item"><a href="#" class="nav-link">Grupos</a></li>
-				<li class="nav-item"><a href="#" class="nav-link">Letras</a></li>
-				<li class="nav-item"><a href="#" class="nav-link">Top 10</a></li>
-				<li class="nav-item"><a href="#" class="nav-link">Descubrimientos</a></li>
-			</ul>
+
+<!--------- Barra de navegación ------------->
+
+
+	<div class="row">
+		<div class="col col-sm-12 menu">
+
+			<nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-dark" style="background: #0F4C5C">
+
+			  <a class="navbar-brand d-block d-sm-none" href="#">Menú</a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    		<span class="navbar-toggler-icon"></span>
+  			</button>
+
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			  	<ul class="navbar-nav mx-lg-auto">
+      			<li class="nav-item active mx-lg-5 mx-md-3 mx-sm-0">
+        			<a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+      			</li>
+      			<li class="nav-item active mx-lg-5 mx-md-3 mx-sm-0">
+        			<a class="nav-link" href="#">Artistas <span class="sr-only"></span></a>
+      			</li>
+      			<li class="nav-item active mx-lg-5 mx-md-3 mx-sm-0">
+        			<a class="nav-link" href="#">Grupos <span class="sr-only"></span></a>
+      			</li>
+      			<li class="nav-item active mx-lg-5 mx-md-3 mx-sm-0">
+        			<a class="nav-link" href="#">Top 10 <span class="sr-only"></span></a>
+      			</li>
+      			<li class="nav-item active mx-lg-5 mx-md-3 mx-sm-0">
+        			<a class="nav-link" href="#">Letras <span class="sr-only"></span></a>
+      			</li>
+      			<li class="nav-item active mx-lg-5 mx-md-3 mx-sm-0">
+        			<a class="nav-link" href="#">Recomendados <span class="sr-only"></span></a>
+      			</li>
+      		</ul>
+			  </div>
+			</nav>
 		</div>
 	</div>
-	</nav>
+
+<!-- Contenido del blog -->
+
+
+<!--=============  Java Script  =============-->
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+	<script src="js/bootstrap.min.js"></script>
 </body>
 <html>
