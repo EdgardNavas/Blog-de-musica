@@ -3,7 +3,7 @@
 }
 
 body{
-	background: #C16200;
+	background: #CECCCC;
 }
 
 a>img[src*="icon"]{
@@ -11,6 +11,15 @@ a>img[src*="icon"]{
 }
 
 .menu{
-	background: #0F4C5C !important;
+	background: #343434 !important;
 }
 
+.posts{
+	background: #C16200;
+	min-height: 200px;
+}
+
+.search{
+	background: #0F4C5C;
+	min-height: 200px;
+}
