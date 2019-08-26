@@ -16,10 +16,16 @@ a>img[src*="icon"]{
 
 .posts{
 	background: #C16200;
-	min-height: 200px;
 }
 
 .search{
 	background: #0F4C5C;
-	min-height: 200px;
+}
+
+.search-suggested-list{
+	width: inherit !important;
+}
+
+.icon{
+	color: #CECCCC !important;
 }
