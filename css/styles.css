@@ -6,8 +6,8 @@ body{
 	background: #CECCCC;
 }
 
-a>img[src*="icon"]{
-	width: 30px;
+.redes{
+	max-width: 2.3rem;
 }
 
 .menu{
