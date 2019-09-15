@@ -1,31 +1,48 @@
-.header{
-	background: #F7FFF7;
-}
+/*=====  Reglas generales  ======*/
 
 body{
 	background: #CECCCC;
 }
 
-.redes{
-	max-width: 2.3rem;
-}
-
-.menu{
-	background: #343434 !important;
-}
-
-.posts{
-	background: #C16200;
-}
-
-.search{
-	background: #0F4C5C;
-}
-
-.search-suggested-list{
-	width: inherit !important;
-}
-
 .icon{
-	color: #CECCCC !important;
-}
+		color: #CECCCC !important;
+	}
+
+
+a:hover{
+		text-decoration: none;
+	}
+
+	/*=====  Encabezado de página  ======*/
+	.header{
+		background: #F7FFF7;
+	}
+
+	.redes{
+		max-width: 2.3rem;
+	}
+
+	/*=====  Barra de navegación  ======*/
+
+	.menu{
+		background: #343434 !important;
+	}
+
+	/*=====  Sección de contenido  ======*/
+
+	.posts{
+		background: #C16200;
+	}
+
+	/*=====  Menú lateral  ======*/
+
+	.search{
+		background: #0F4C5C;
+	}
+
+	.search-suggested-list{
+		width: inherit !important;
+	}
+
+
+	
